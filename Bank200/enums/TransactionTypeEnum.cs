@@ -1,8 +1,8 @@
 ﻿namespace Bank200.enums
 {
-    public class TransactionTypeEnum
+    public enum TransactionTypeEnum
     {
-       // Deposit = 1,
-       // Withdrawal = 2
+       Deposit = 1,
+       Withdrawal = 2
     }
 }
