@@ -1,11 +1,11 @@
 ﻿using Bank200.Models;
 namespace Bank200.Data
 {
-    public class SystemDB
+    public class DBInitializer
     {
         private readonly BankingContext _context;
 
-        public SystemDB(BankingContext context)
+        public DBInitializer(BankingContext context)
         {
             _context = context;
         }
