@@ -1,14 +1,4 @@
-using Bank200.Data;
-using Microsoft.EntityFrameworkCore;
-
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.Configure<BankDatabaseSettings>(
-    builder.Configuration.GetSection("BankDatabase"));
-
-builder.Services.AddSingleton<DBSystem>();
-
 
 // Add services to the container.
 
